@@ -1,0 +1,244 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    font-family: "Hind", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: black;
+    overflow: hidden;
+    color: #fff;
+    display: flex;
+  }
+
+  .main {
+    display: flex;
+    display: inline-block;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .sidebar{
+    background-color: #030303;
+    width: 300px;
+    position: fixed;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .sidebar-nav {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .sidebar-nav .logo {
+    width: 120px;
+  }
+
+  .sidebar-nav .logo img{
+    width: 100%;
+  }
+
+  .sidebar-nav ul {
+    list-style: none;
+  }
+
+  .sidebar-nav ul li{
+    padding: 10px 20px;
+  }
+
+  .sidebar-nav ul li a {
+    text-decoration: none;
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .sidebar-nav ul li a:hover {
+    color: #fff;
+  }
+
+  .sidebar-nav ul li a i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .sidebar-nav.box2 {
+    height: 363px
+  }
+
+  .library::after {
+    content: '+';
+    align-items: center;
+    float: right;
+    border-radius: 50%;
+    font-size: 15px;
+  }
+
+  .sidebar-scroll svg {
+    height: 20px;
+    width: 20px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  .sidebar-scroll {
+    position: relative;
+  }
+
+  .sidebar-scroll ul {
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+  }
+
+  .sidebar-scroll ul::-webkit-scrollbar {
+    display: none;
+  }
+
+  .sidebar-scroll ul li {
+    padding: 5px;
+
+  }
+
+  .sidebar-scroll a {
+    background-color: #232323;
+    padding: 4px 20px;
+    border-radius: 140px;
+    display: inline-block;
+    white-space: nowrap;
+  }
+
+  .sidebar-scroll .left-scroll,
+  .sidebar-scroll .right-scroll {
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: none;
+    align-items: center;
+    padding: 0 7px;
+  }
+
+  .sidebar-scroll .right-scroll.active,
+  .sidebar-scroll .left-scroll.active{
+    display: flex;
+  }
+
+  .sidebar-scroll .right-scroll {
+    right: 0;
+    background: linear-gradient(to left, #111 50%, transparent);
+    justify-content: flex-end;
+  }
+
+  .sidebar-scroll .left-scroll {
+    background: linear-gradient(to right, #111 50%, transparent);
+  }
+
+  .sidebar-scroll svg:hover {
+    background: #333;
+  }
+
+  .privacy ul li a {
+    color: #565252;
+    font-size: 11px;
+    font-weight: 600;
+    margin: 0 4px;
+  }
+
+  .privacy ul {
+    margin-top: 20px;
+    justify-content: space-evenly;
+  }
+
+  .privacy ul li {
+    padding: 4px;
+  }
+
+  .privacy ul li a:hover {
+    text-decoration: underline;
+  }
+
+  .eng-btn {
+    padding: 10px 8px;
+  }
+
+  .eng-btn button {
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #a79f9f;
+    color: #fff;
+    border-radius: 20px;
+    align-items: center;
+  }
+
+  .eng-btn button i {
+    padding-right: 5px;
+  }
+
+  .eng-btn button:hover{
+    border-color: #fff;
+  }
+
+  .main-content {
+    background: linear-gradient(to bottom, #202020 50%, #111);
+    margin-left: 320px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    height: 100vh;
+  }
+
+  .main-content .top-nav {
+    padding: 20px 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-content .top-nav button {
+    background: transparent;
+    border: none;
+  }
+
+  .main-content .top-nav .prev-btn button i {
+    color: #b3b3b3;
+    font-size: 22px;
+    margin-right: 10px;
+  }
+
+  .top-nav .login-btn .Sign-up {
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .top-nav .login-btn .Log-in {
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-left: 5px;
+  }
+
+  .top-nav .login-btn .Sign-up:hover {
+    color: #fff;
+  }
+
+  .top-nav .login-btn .Log-in:hover {
+    background-color: #b3b3b3;
+  }
+
+  .main-content .top-nav .prev-btn button i:hover {
+    color: #fff;
+  }
+
+  .music-player {
+    background-color: blue;
+  }
