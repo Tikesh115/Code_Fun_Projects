@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transfrom Transition & Animation</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-10">
+    <div class="mb-10">
+        <button class="p-5 text-white bg-blue-500 hover:bg-blue-700">Click Me!</button>
+        <button class="p-5 text-white bg-blue-500 transition hover:bg-teal-400 duration-300 ease-in-out delay-150 text-white">Transition</button>
+        <button class="p-5 text-white bg-blue-500 transition ease-in-out delay-150 duration-1000 hover:-translate-y-1 hover:scale-110">Transformation</button>
+    </div>
+
+
+    <div class="flex justfy-center">
+        <div class="p-20 m-20 w-20 bg-teal-200 animate-spin">Spin</div>
+        <div class="p-20 m-20 w-20 bg-teal-200 animate-ping">Ping</div>
+        <div class="p-20 m-20 w-20 bg-teal-200 animate-pulse">Pulse</div>
+        <div class="p-20 m-20 w-20 bg-teal-200 animate-bounce rounded-full">Bounce</div>
+    </div>
+</body>
+</html>
