@@ -23,4 +23,5 @@
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Tikesh115&" alt="Tikesh115" /></p>
 <p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Tikesh115&show_icons=true&locale=en&layout=compact" alt="Tikesh115" /></p>
 
-![snake gif](https://github.com/Tikesh115/Tikesh115/blob/output/github-snake-dark.svg)
+
+![snake gif](https://raw.githubusercontent.com/Tikesh115/Tikesh115/output/github-snake-dark.svg)
