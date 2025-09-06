@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positition&Display</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="p-20">
+    <h1 class="mb-3">Postion</h1>
+    <div class="relative w-1/2 h-40 bg-green-200">
+        <p>relative</p>
+        <div class="absolute bottom-0 right-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-5">
+        <p>relative</p>
+        <div class="absolute top-0 left-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-5">
+        <p>relative</p>
+        <div class="absolute top-0 right-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <div class="relative w-1/2 h-40 bg-green-200 mt-5">
+        <p>relative</p>
+        <div class="absolute bottom-0 left-0 bg-teal-500 p-4">
+            <p>Absolute</p>
+        </div>
+    </div>
+
+    <h1 class="mb-3">Display</h1>
+    <div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+        <span class="inline bg-orange-200 w-[100px] h-[200px]">1.This is display inline and will wrap normally.</span>
+        <span class="inline-block bg-orange-200">2.This is display inline-block and will not extend beyond it's parent.</span>
+        <span class="block">3.This is display block and will move to it's own line.</span>
+        <span class="hidden">This is display none and will not display at all.</span>
+    </div>
+</body>
+</html>
