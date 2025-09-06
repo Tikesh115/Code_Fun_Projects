@@ -1,0 +1,12 @@
+# Virtual Environment
+.venv/
+
+# DataBase file
+db.sqlite3
+
+# User uploaded media
+media/
+
+# Compiled Python files
+__pycache__/
+*.pyc
